@@ -1,4 +1,3 @@
-
 import 'package:flutter/material.dart';
 import 'package:login/erp_portal.dart';
 
@@ -18,7 +17,8 @@ class Blank extends StatelessWidget {
           margin: EdgeInsets.all(5.0),
           child: TextButton(
             onPressed: () {
-              Navigator.push(context,MaterialPageRoute(builder: (context)=>ERP()));
+              Navigator.push(
+                  context, MaterialPageRoute(builder: (context) => ERP()));
             },
             child: (Text('Demo clickable container')),
             style: TextButton.styleFrom(
